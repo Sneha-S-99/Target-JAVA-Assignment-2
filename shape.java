@@ -1,6 +1,4 @@
 
-import java.util.Scanner;
-
 public class NotASquareException extends Exception {
 	NotASquareException()
 	{
