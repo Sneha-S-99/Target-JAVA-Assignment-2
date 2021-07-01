@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class NotASquareException extends Exception {
 	NotASquareException()
 	{
-		System.out.println("Not a square");
+		System.out.println("The shape is not a square");
 	}
 
 	
@@ -32,7 +32,7 @@ public class shape {
 		try{
 			if(S.isSquare())
 			{
-				System.out.println("It is sqaure.");
+				System.out.println("The shape is a sqaure.");
 			}
 		}
 		catch(NotASquareException e)
