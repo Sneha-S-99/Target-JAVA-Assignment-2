@@ -1,7 +1,13 @@
-package sneha.target;
 
 import java.util.Scanner;
 
+public class NotASquareException extends Exception {
+	NotASquareException()
+	{
+		System.out.println("Not a square");
+	}
+
+	
 public class shape {
 	int length, width;
 	boolean isSquare() throws NotASquareException {
