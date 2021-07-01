@@ -1,5 +1,12 @@
 package sneha.target3;
 
+public class CustomException extends Exception {
+	CustomException()
+	{
+		System.out.println("Custom Exception occured.");
+	}
+}
+
 public class ExceptionTesting {
 	static void method2()
 	{
