@@ -1,4 +1,3 @@
-package sneha.target1;
 
 import java.util.Scanner;
 
